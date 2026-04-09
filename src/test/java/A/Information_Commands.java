@@ -18,8 +18,6 @@ public class Information_Commands {
 	  
 	  String g = driver.findElement(By.linkText("Gmail")).getText();
 	  System.out.println(g);
-	  
-	  
   }
   
   @Test(priority = 2)
