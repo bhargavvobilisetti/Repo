@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 
-public class MouseOverActions {
+public class MouseOverActions2 {
 	public WebDriver driver;
 	public Actions action;
   @Test

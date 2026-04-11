@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterTest;
 
 @Listeners(A.ListenerClass.class)
-public class Alerts {
+public class Alerts1 {
 	public WebDriver driver;
   @Test
   public void alert() {
