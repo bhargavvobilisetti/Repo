@@ -18,11 +18,9 @@ public class Alerts1 {
   public void alert() {
 	  
 	  driver.findElement(By.id("alertButton")).click();
-	  
 	  //driver.findElement(By.id("timerAlertButton")).click();
 	  String tr = driver.switchTo().alert().getText();
 	  System.out.println(tr);
-	  
   }
   @BeforeTest
   public void beforeTest() throws InterruptedException {
@@ -31,7 +29,6 @@ public class Alerts1 {
 	  driver= new EdgeDriver();
 	  driver.get("https://demoqa.com/alerts");
 	  Thread.sleep(4000);
-	  
   }
 
   @AfterTest

@@ -32,8 +32,6 @@ public class DataDriven_18 {
 	  Thread.sleep(5000);
 	  
 	  driver.findElement(By.name("commit")).click();
-	  
-	  
   }
   @BeforeTest
   
@@ -45,6 +43,7 @@ public class DataDriven_18 {
 
   @AfterTest
   public void afterTest() {
+	  
   }
 
 }

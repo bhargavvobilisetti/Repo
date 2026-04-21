@@ -15,7 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 
-public class Flipkart_Generic {
+public class Flipkart_Generic14 {
 	public WebDriver driver;
 	
 	public void generic(String str) throws InterruptedException {

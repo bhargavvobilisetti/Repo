@@ -44,9 +44,6 @@ public class PopupWindow3 {
 	  driver.findElement(By.linkText("Home")).click();
 	  
 	  Thread.sleep(2000);
-	  
-	  
-	  
   }
   @BeforeTest
   public void beforeTest() {

@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterTest;
 
-public class Information_Commands2 {
+public class Information_Commands4 {
 	public WebDriver driver;
 	
   @Test(priority = 1)
